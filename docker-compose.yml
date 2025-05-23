@@ -1,20 +1,16 @@
-version: "3.9"
-
 services:
   api:
     build:
       context: .
-      dockerfile: Dockerfile.api
+      args:
+        SERVICE: api
     ports:
       - "8000:8000"
-    restart: always
 
   streamlit:
     build:
       context: .
-      dockerfile: Dockerfile.streamlit
+      args:
+        SERVICE: streamlit
     ports:
-      - "8501:8501"
-    restart: always
-    depends_on:
-      - api
+      - "8503:8503"
