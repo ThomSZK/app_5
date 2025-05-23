@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Envio de JSON para /predict</title>
+  <style>
+    body { font-family: sans-serif; margin: 2em; }
+    textarea { width: 100%; height: 200px; font-family: monospace; }
+    button { padding: 0.5em 1em; margin-top: 1em; }
+    pre { background: #eee; padding: 1em; white-space: pre-wrap; }
+  </style>
+</head>
+<body>
+  <h1>Envio de JSON para <code>/predict</code></h1>
+
+  <label for="jsonInput">Cole o JSON:</label><br />
+  <textarea id="jsonInput">{
+  "data": [
+    {
+      "feature1": 1.0,
+      "feature2": 2.0,
+      "feature3": 3.0
+    }
+  ]
+}</textarea><br />
+
+  <button onclick="sendJSON()">Enviar</button>
+
+  <h2>Resposta:</h2>
+  <pre id="responseBox"></pre>
+
+  <script>
+    async function sendJSON() {
+      const rawInput = document.getElementById("jsonInput").value;
+      try {
+        const res = await fetch("/predict", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: rawInput
+        });
+
+        const result = await res.json();
+        document.getElementById("responseBox").textContent = JSON.stringify(result, null, 2);
+      } catch (err) {
+        document.getElementById("responseBox").textContent = "Erro: " + err;
+      }
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,1089 @@
+[
+  {
+    "nome": "Python",
+    "categoria": "Linguagem de Programação",
+    "sinonimos": [
+      "python 3",
+      "linguagem python"
+    ]
+  },
+  {
+    "nome": "Java",
+    "categoria": "Linguagem de Programação",
+    "sinonimos": []
+  },
+  {
+    "nome": "React",
+    "categoria": "Desenvolvimento Web",
+    "sinonimos": [
+      "react.js",
+      "react js"
+    ]
+  },
+  {
+    "nome": "MySQL",
+    "categoria": "Banco de Dados",
+    "sinonimos": [
+      "banco mysql"
+    ]
+  },
+  {
+    "nome": "AWS",
+    "categoria": "Computação em Nuvem",
+    "sinonimos": [
+      "amazon web services",
+      "aws cloud"
+    ]
+  },
+  {
+    "nome": "Power BI",
+    "categoria": "Business Intelligence",
+    "sinonimos": []
+  },
+  {
+    "nome": "TensorFlow",
+    "categoria": "Machine Learning",
+    "sinonimos": []
+  },
+  {
+    "nome": "PyTorch",
+    "categoria": "Machine Learning",
+    "sinonimos": []
+  },
+  {
+    "nome": "JavaScript",
+    "categoria": "Linguagem de Programação",
+    "sinonimos": [
+      "js"
+    ]
+  },
+  {
+    "nome": "HTML",
+    "categoria": "Desenvolvimento Web",
+    "sinonimos": []
+  },
+  {
+    "nome": "CSS",
+    "categoria": "Desenvolvimento Web",
+    "sinonimos": []
+  },
+  {
+    "nome": "Node.js",
+    "categoria": "Desenvolvimento Web",
+    "sinonimos": [
+      "nodejs"
+    ]
+  },
+  {
+    "nome": "PostgreSQL",
+    "categoria": "Banco de Dados",
+    "sinonimos": [
+      "banco postgresql"
+    ]
+  },
+  {
+    "nome": "Git",
+    "categoria": "Controle de Versão",
+    "sinonimos": []
+  },
+  {
+    "nome": "GitHub",
+    "categoria": "Controle de Versão",
+    "sinonimos": []
+  },
+  {
+    "nome": "Bitbucket",
+    "categoria": "Controle de Versão",
+    "sinonimos": []
+  },
+  {
+    "nome": "JIRA",
+    "categoria": "Gestão de Projetos",
+    "sinonimos": []
+  },
+  {
+    "nome": "Scrum",
+    "categoria": "Gestão de Projetos",
+    "sinonimos": []
+  },
+  {
+    "nome": "Agile",
+    "categoria": "Gestão de Projetos",
+    "sinonimos": []
+  },
+  {
+    "nome": "Kanban",
+    "categoria": "Gestão de Projetos",
+    "sinonimos": []
+  },
+  {
+    "nome": "Salesforce",
+    "categoria": "CRM",
+    "sinonimos": []
+  },
+  {
+    "nome": "SAP",
+    "categoria": "ERP",
+    "sinonimos": []
+  },
+  {
+    "nome": "Oracle",
+    "categoria": "Banco de Dados",
+    "sinonimos": []
+  },
+  {
+    "nome": "MongoDB",
+    "categoria": "Banco de Dados",
+    "sinonimos": []
+  },
+  {
+    "nome": "Redis",
+    "categoria": "Banco de Dados",
+    "sinonimos": []
+  },
+  {
+    "nome": "Elasticsearch",
+    "categoria": "Banco de Dados",
+    "sinonimos": []
+  },
+  {
+    "nome": "Apache Kafka",
+    "categoria": "Big Data",
+    "sinonimos": []
+  },
+  {
+    "nome": "Hadoop",
+    "categoria": "Big Data",
+    "sinonimos": []
+  },
+  {
+    "nome": "Spark",
+    "categoria": "Big Data",
+    "sinonimos": []
+  },
+  {
+    "nome": "Tableau",
+    "categoria": "Business Intelligence",
+    "sinonimos": []
+  },
+  {
+    "nome": "QlikView",
+    "categoria": "Business Intelligence",
+    "sinonimos": []
+  },
+  {
+    "nome": "PowerShell",
+    "categoria": "Infraestrutura",
+    "sinonimos": []
+  },
+  {
+    "nome": "Bash",
+    "categoria": "Infraestrutura",
+    "sinonimos": []
+  },
+  {
+    "nome": "Ansible",
+    "categoria": "DevOps",
+    "sinonimos": []
+  },
+  {
+    "nome": "Terraform",
+    "categoria": "DevOps",
+    "sinonimos": []
+  },
+  {
+    "nome": "Nagios",
+    "categoria": "Infraestrutura",
+    "sinonimos": []
+  },
+  {
+    "nome": "Zabbix",
+    "categoria": "Infraestrutura",
+    "sinonimos": []
+  },
+  {
+    "nome": "Grafana",
+    "categoria": "Infraestrutura",
+    "sinonimos": []
+  },
+  {
+    "nome": "Prometheus",
+    "categoria": "Infraestrutura",
+    "sinonimos": []
+  },
+  {
+    "nome": "Splunk",
+    "categoria": "Infraestrutura",
+    "sinonimos": []
+  },
+  {
+    "nome": "VMware",
+    "categoria": "Infraestrutura",
+    "sinonimos": []
+  },
+  {
+    "nome": "Hyper-V",
+    "categoria": "Infraestrutura",
+    "sinonimos": []
+  },
+  {
+    "nome": "Kubernetes",
+    "categoria": "Infraestrutura",
+    "sinonimos": []
+  },
+  {
+    "nome": "Active Directory",
+    "categoria": "Infraestrutura",
+    "sinonimos": []
+  },
+  {
+    "nome": "Windows Server",
+    "categoria": "Infraestrutura",
+    "sinonimos": []
+  },
+  {
+    "nome": "C",
+    "categoria": "Linguagem de Programação",
+    "sinonimos": []
+  },
+  {
+    "nome": "C++",
+    "categoria": "Linguagem de Programação",
+    "sinonimos": []
+  },
+  {
+    "nome": "C#",
+    "categoria": "Linguagem de Programação",
+    "sinonimos": []
+  },
+  {
+    "nome": "Ruby",
+    "categoria": "Linguagem de Programação",
+    "sinonimos": []
+  },
+  {
+    "nome": "PHP",
+    "categoria": "Linguagem de Programação",
+    "sinonimos": []
+  },
+  {
+    "nome": "Go",
+    "categoria": "Linguagem de Programação",
+    "sinonimos": [
+      "golang"
+    ]
+  },
+  {
+    "nome": "Swift",
+    "categoria": "Linguagem de Programação",
+    "sinonimos": []
+  },
+  {
+    "nome": "Kotlin",
+    "categoria": "Linguagem de Programação",
+    "sinonimos": []
+  },
+  {
+    "nome": "TypeScript",
+    "categoria": "Linguagem de Programação",
+    "sinonimos": []
+  },
+  {
+    "nome": "R",
+    "categoria": "Linguagem de Programação",
+    "sinonimos": []
+  },
+  {
+    "nome": "Scala",
+    "categoria": "Linguagem de Programação",
+    "sinonimos": []
+  },
+  {
+    "nome": "Dart",
+    "categoria": "Linguagem de Programação",
+    "sinonimos": []
+  },
+  {
+    "nome": "Angular",
+    "categoria": "Desenvolvimento Web",
+    "sinonimos": []
+  },
+  {
+    "nome": "Vue.js",
+    "categoria": "Desenvolvimento Web",
+    "sinonimos": [
+      "vue"
+    ]
+  },
+  {
+    "nome": "SASS",
+    "categoria": "Desenvolvimento Web",
+    "sinonimos": []
+  },
+  {
+    "nome": "Less",
+    "categoria": "Desenvolvimento Web",
+    "sinonimos": []
+  },
+  {
+    "nome": "jQuery",
+    "categoria": "Desenvolvimento Web",
+    "sinonimos": []
+  },
+  {
+    "nome": "Next.js",
+    "categoria": "Desenvolvimento Web",
+    "sinonimos": []
+  },
+  {
+    "nome": "Nuxt.js",
+    "categoria": "Desenvolvimento Web",
+    "sinonimos": []
+  },
+  {
+    "nome": "Kubernetes",
+    "categoria": "DevOps",
+    "sinonimos": []
+  },
+  {
+    "nome": "Jenkins",
+    "categoria": "DevOps",
+    "sinonimos": []
+  },
+  {
+    "nome": "Ansible",
+    "categoria": "DevOps",
+    "sinonimos": []
+  },
+  {
+    "nome": "Terraform",
+    "categoria": "DevOps",
+    "sinonimos": []
+  },
+  {
+    "nome": "Nagios",
+    "categoria": "Infraestrutura",
+    "sinonimos": []
+  },
+  {
+    "nome": "Zabbix",
+    "categoria": "Infraestrutura",
+    "sinonimos": []
+  },
+  {
+    "nome": "Linux",
+    "categoria": "Infraestrutura",
+    "sinonimos": [
+      "sistemas linux",
+      "administração linux"
+    ]
+  },
+  {
+    "nome": "Oracle DB",
+    "categoria": "Banco de Dados",
+    "sinonimos": []
+  },
+  {
+    "nome": "SQL Server",
+    "categoria": "Banco de Dados",
+    "sinonimos": []
+  },
+  {
+    "nome": "MongoDB",
+    "categoria": "Banco de Dados",
+    "sinonimos": []
+  },
+  {
+    "nome": "Redis",
+    "categoria": "Banco de Dados",
+    "sinonimos": []
+  },
+  {
+    "nome": "Cassandra",
+    "categoria": "Banco de Dados",
+    "sinonimos": []
+  },
+  {
+    "nome": "Elasticsearch",
+    "categoria": "Banco de Dados",
+    "sinonimos": []
+  },
+  {
+    "nome": "Flutter",
+    "categoria": "Desenvolvimento Mobile",
+    "sinonimos": []
+  },
+  {
+    "nome": "React Native",
+    "categoria": "Desenvolvimento Mobile",
+    "sinonimos": []
+  },
+  {
+    "nome": "Android",
+    "categoria": "Desenvolvimento Mobile",
+    "sinonimos": []
+  },
+  {
+    "nome": "iOS",
+    "categoria": "Desenvolvimento Mobile",
+    "sinonimos": []
+  },
+  {
+    "nome": "Xamarin",
+    "categoria": "Desenvolvimento Mobile",
+    "sinonimos": []
+  },
+  {
+    "nome": "Tableau",
+    "categoria": "Business Intelligence",
+    "sinonimos": []
+  },
+  {
+    "nome": "QlikView",
+    "categoria": "Business Intelligence",
+    "sinonimos": []
+  },
+  {
+    "nome": "Hadoop",
+    "categoria": "Big Data",
+    "sinonimos": []
+  },
+  {
+    "nome": "Spark",
+    "categoria": "Big Data",
+    "sinonimos": []
+  },
+  {
+    "nome": "Kafka",
+    "categoria": "Big Data",
+    "sinonimos": []
+  },
+  {
+    "nome": "ETL",
+    "categoria": "Data Engineering",
+    "sinonimos": [
+      "extração transformação carga"
+    ]
+  },
+  {
+    "nome": "Data Lake",
+    "categoria": "Data Engineering",
+    "sinonimos": []
+  },
+  {
+    "nome": "Snowflake",
+    "categoria": "Data Engineering",
+    "sinonimos": []
+  },
+  {
+    "nome": "Scikit-learn",
+    "categoria": "Machine Learning",
+    "sinonimos": []
+  },
+  {
+    "nome": "Keras",
+    "categoria": "Machine Learning",
+    "sinonimos": []
+  },
+  {
+    "nome": "OpenCV",
+    "categoria": "Visão Computacional",
+    "sinonimos": []
+  },
+  {
+    "nome": "NLTK",
+    "categoria": "NLP",
+    "sinonimos": []
+  },
+  {
+    "nome": "spaCy",
+    "categoria": "NLP",
+    "sinonimos": []
+  },
+  {
+    "nome": "Transformers",
+    "categoria": "NLP",
+    "sinonimos": [
+      "huggingface transformers"
+    ]
+  },
+  {
+    "nome": "Planejamento Estratégico",
+    "categoria": "Gestão",
+    "sinonimos": []
+  },
+  {
+    "nome": "Gestão de Projetos",
+    "categoria": "Gestão",
+    "sinonimos": []
+  },
+  {
+    "nome": "Análise Financeira",
+    "categoria": "Finanças",
+    "sinonimos": []
+  },
+  {
+    "nome": "Recrutamento e Seleção",
+    "categoria": "Recursos Humanos",
+    "sinonimos": []
+  },
+  {
+    "nome": "Marketing Digital",
+    "categoria": "Marketing",
+    "sinonimos": []
+  },
+  {
+    "nome": "Gestão de Estoques",
+    "categoria": "Operações e Logística",
+    "sinonimos": []
+  },
+  {
+    "nome": "Comunicação",
+    "categoria": "Soft Skill",
+    "sinonimos": [
+      "comunicação interpessoal",
+      "comunicação eficaz"
+    ]
+  },
+  {
+    "nome": "Liderança",
+    "categoria": "Soft Skill",
+    "sinonimos": []
+  },
+  {
+    "nome": "Trabalho em equipe",
+    "categoria": "Soft Skill",
+    "sinonimos": []
+  },
+  {
+    "nome": "Proatividade",
+    "categoria": "Soft Skill",
+    "sinonimos": []
+  },
+  {
+    "nome": "Resolução de problemas",
+    "categoria": "Soft Skill",
+    "sinonimos": []
+  },
+  {
+    "nome": "Organização",
+    "categoria": "Soft Skill",
+    "sinonimos": []
+  },
+  {
+    "nome": "Gestão do tempo",
+    "categoria": "Soft Skill",
+    "sinonimos": []
+  },
+  {
+    "nome": "Adaptabilidade",
+    "categoria": "Soft Skill",
+    "sinonimos": []
+  },
+  {
+    "nome": "Pensamento crítico",
+    "categoria": "Soft Skill",
+    "sinonimos": []
+  },
+  {
+    "nome": "Criatividade",
+    "categoria": "Soft Skill",
+    "sinonimos": []
+  },
+  {
+    "nome": "Empatia",
+    "categoria": "Soft Skill",
+    "sinonimos": []
+  },
+  {
+    "nome": "Negociação",
+    "categoria": "Soft Skill",
+    "sinonimos": []
+  },
+  {
+    "nome": "Tomada de decisão",
+    "categoria": "Soft Skill",
+    "sinonimos": []
+  },
+  {
+    "nome": "Inteligência emocional",
+    "categoria": "Soft Skill",
+    "sinonimos": []
+  },
+  {
+    "nome": "Networking",
+    "categoria": "Soft Skill",
+    "sinonimos": []
+  },
+  {
+    "nome": "Feedback",
+    "categoria": "Soft Skill",
+    "sinonimos": []
+  },
+  {
+    "nome": "Mentoria",
+    "categoria": "Soft Skill",
+    "sinonimos": []
+  },
+  {
+    "nome": "Escuta ativa",
+    "categoria": "Soft Skill",
+    "sinonimos": []
+  },
+  {
+    "nome": "Flexibilidade",
+    "categoria": "Soft Skill",
+    "sinonimos": []
+  },
+  {
+    "nome": "Pensamento analítico",
+    "categoria": "Soft Skill",
+    "sinonimos": []
+  },
+  {
+    "nome": "Visão sistêmica",
+    "categoria": "Soft Skill",
+    "sinonimos": []
+  },
+  {
+    "nome": "Gestão de conflitos",
+    "categoria": "Soft Skill",
+    "sinonimos": []
+  },
+  {
+    "nome": "Autoconfiança",
+    "categoria": "Soft Skill",
+    "sinonimos": []
+  },
+  {
+    "nome": "Autodisciplina",
+    "categoria": "Soft Skill",
+    "sinonimos": []
+  },
+  {
+    "nome": "Motivação",
+    "categoria": "Soft Skill",
+    "sinonimos": []
+  },
+  {
+    "nome": "Orientação para resultados",
+    "categoria": "Soft Skill",
+    "sinonimos": []
+  },
+  {
+    "nome": "Capacidade de adaptação",
+    "categoria": "Soft Skill",
+    "sinonimos": []
+  },
+  {
+    "nome": "Capacidade de aprendizado contínuo",
+    "categoria": "Soft Skill",
+    "sinonimos": []
+  },
+  {
+    "nome": "Capacidade de trabalhar sob pressão",
+    "categoria": "Soft Skill",
+    "sinonimos": []
+  },
+  {
+    "nome": "Capacidade de lidar com mudanças",
+    "categoria": "Soft Skill",
+    "sinonimos": []
+  },
+  {
+    "nome": "Capacidade de trabalhar em ambientes multiculturais",
+    "categoria": "Soft Skill",
+    "sinonimos": []
+  },
+  {
+    "nome": "Capacidade de trabalhar em ambientes remotos",
+    "categoria": "Soft Skill",
+    "sinonimos": []
+  },
+  {
+    "nome": "Capacidade de trabalhar em ambientes ágeis",
+    "categoria": "Soft Skill",
+    "sinonimos": []
+  },
+  {
+    "nome": "Capacidade de trabalhar em ambientes colaborativos",
+    "categoria": "Soft Skill",
+    "sinonimos": []
+  },
+  {
+    "nome": "Capacidade de trabalhar em ambientes dinâmicos",
+    "categoria": "Soft Skill",
+    "sinonimos": []
+  },
+  {
+    "nome": "Capacidade de trabalhar em ambientes complexos",
+    "categoria": "Soft Skill",
+    "sinonimos": []
+  },
+  {
+    "nome": "SAP FI",
+    "categoria": "SAP Módulo Funcional",
+    "sinonimos": [
+      "sap financial accounting"
+    ]
+  },
+  {
+    "nome": "SAP CO",
+    "categoria": "SAP Módulo Funcional",
+    "sinonimos": [
+      "sap controlling"
+    ]
+  },
+  {
+    "nome": "SAP MM",
+    "categoria": "SAP Módulo Funcional",
+    "sinonimos": [
+      "sap materiais"
+    ]
+  },
+  {
+    "nome": "SAP SD",
+    "categoria": "SAP Módulo Funcional",
+    "sinonimos": [
+      "sap vendas"
+    ]
+  },
+  {
+    "nome": "SAP ABAP",
+    "categoria": "SAP Técnico",
+    "sinonimos": [
+      "abap programming"
+    ]
+  },
+  {
+    "nome": "SAP HANA",
+    "categoria": "SAP Técnico",
+    "sinonimos": [
+      "sap banco de dados",
+      "hana db"
+    ]
+  },
+  {
+    "nome": "SAP Fiori",
+    "categoria": "SAP Técnico",
+    "sinonimos": [
+      "sap ux",
+      "sap ui"
+    ]
+  },
+  {
+    "nome": "Monitoramento de redes",
+    "categoria": "NOC",
+    "sinonimos": []
+  },
+  {
+    "nome": "Monitoramento de servidores",
+    "categoria": "NOC",
+    "sinonimos": []
+  },
+  {
+    "nome": "Monitoramento de sistemas",
+    "categoria": "NOC",
+    "sinonimos": []
+  },
+  {
+    "nome": "Diagnóstico de falhas",
+    "categoria": "NOC",
+    "sinonimos": []
+  },
+  {
+    "nome": "Suporte de primeiro nível",
+    "categoria": "NOC",
+    "sinonimos": [
+      "suporte nível 1",
+      "atendimento técnico"
+    ]
+  },
+  {
+    "nome": "Registro de incidentes",
+    "categoria": "NOC",
+    "sinonimos": []
+  },
+  {
+    "nome": "Resolução de tickets",
+    "categoria": "NOC",
+    "sinonimos": []
+  },
+  {
+    "nome": "TCP/IP",
+    "categoria": "Redes",
+    "sinonimos": []
+  },
+  {
+    "nome": "DNS",
+    "categoria": "Redes",
+    "sinonimos": []
+  },
+  {
+    "nome": "DHCP",
+    "categoria": "Redes",
+    "sinonimos": []
+  },
+  {
+    "nome": "NAT",
+    "categoria": "Redes",
+    "sinonimos": []
+  },
+  {
+    "nome": "VPN",
+    "categoria": "Redes",
+    "sinonimos": []
+  },
+  {
+    "nome": "VLAN",
+    "categoria": "Redes",
+    "sinonimos": []
+  },
+  {
+    "nome": "SNMP",
+    "categoria": "Redes",
+    "sinonimos": [
+      "simple network management protocol"
+    ]
+  },
+  {
+    "nome": "ICMP",
+    "categoria": "Redes",
+    "sinonimos": []
+  },
+  {
+    "nome": "Switching",
+    "categoria": "Redes",
+    "sinonimos": []
+  },
+  {
+    "nome": "Routing",
+    "categoria": "Redes",
+    "sinonimos": []
+  },
+  {
+    "nome": "Zabbix",
+    "categoria": "Ferramenta de Monitoramento",
+    "sinonimos": []
+  },
+  {
+    "nome": "Nagios",
+    "categoria": "Ferramenta de Monitoramento",
+    "sinonimos": []
+  },
+  {
+    "nome": "PRTG Network Monitor",
+    "categoria": "Ferramenta de Monitoramento",
+    "sinonimos": [
+      "prtg"
+    ]
+  },
+  {
+    "nome": "Grafana",
+    "categoria": "Ferramenta de Monitoramento",
+    "sinonimos": []
+  },
+  {
+    "nome": "Prometheus",
+    "categoria": "Ferramenta de Monitoramento",
+    "sinonimos": []
+  },
+  {
+    "nome": "SolarWinds",
+    "categoria": "Ferramenta de Monitoramento",
+    "sinonimos": []
+  },
+  {
+    "nome": "ServiceNow",
+    "categoria": "ITSM",
+    "sinonimos": []
+  },
+  {
+    "nome": "GLPI",
+    "categoria": "ITSM",
+    "sinonimos": []
+  },
+  {
+    "nome": "OTRS",
+    "categoria": "ITSM",
+    "sinonimos": []
+  },
+  {
+    "nome": "ITIL",
+    "categoria": "ITSM",
+    "sinonimos": [
+      "fundamentos itil",
+      "itil v4"
+    ]
+  },
+  {
+    "nome": "Linux",
+    "categoria": "Infraestrutura",
+    "sinonimos": [
+      "sistemas linux",
+      "administração linux"
+    ]
+  },
+  {
+    "nome": "Active Directory",
+    "categoria": "Infraestrutura",
+    "sinonimos": []
+  },
+  {
+    "nome": "PowerShell",
+    "categoria": "Infraestrutura",
+    "sinonimos": []
+  },
+  {
+    "nome": "Bash Script",
+    "categoria": "Infraestrutura",
+    "sinonimos": []
+  },
+  {
+    "nome": "VMware",
+    "categoria": "Infraestrutura",
+    "sinonimos": []
+  },
+  {
+    "nome": "Hyper-V",
+    "categoria": "Infraestrutura",
+    "sinonimos": []
+  },
+  {
+    "nome": "Gestão de logs",
+    "categoria": "Infraestrutura",
+    "sinonimos": []
+  },
+  {
+    "nome": "Backup e Recovery",
+    "categoria": "Infraestrutura",
+    "sinonimos": []
+  },
+  {
+    "nome": "SQL",
+    "categoria": "Banco de Dados",
+    "sinonimos": [
+      "Structured Query Language",
+      "linguagem sql",
+      "sql",
+      "sql server",
+      "SQL",
+      "conhecimento sql"
+    ]
+  },
+  {
+    "nome": "MySQL",
+    "categoria": "Banco de Dados",
+    "sinonimos": [
+      "banco mysql"
+    ]
+  },
+  {
+    "nome": "PostgreSQL",
+    "categoria": "Banco de Dados",
+    "sinonimos": [
+      "banco postgresql"
+    ]
+  },
+  {
+    "nome": "SQL Server",
+    "categoria": "Banco de Dados",
+    "sinonimos": [
+      "ms sql server",
+      "sql server"
+    ]
+  },
+  {
+    "nome": "Oracle SQL",
+    "categoria": "Banco de Dados",
+    "sinonimos": [
+      "oracle database",
+      "oracle sql"
+    ]
+  },
+  {
+    "nome": "MongoDB",
+    "categoria": "Banco de Dados",
+    "sinonimos": [
+      "nosql",
+      "banco de dados noSQL"
+    ]
+  },
+  {
+    "nome": "Cassandra",
+    "categoria": "Banco de Dados",
+    "sinonimos": [
+      "nosql",
+      "banco cassandra"
+    ]
+  },
+  {
+    "nome": "JOINs",
+    "categoria": "Banco de Dados",
+    "sinonimos": [
+      "junção de tabelas",
+      "sql joins"
+    ]
+  },
+  {
+    "nome": "Subconsultas",
+    "categoria": "Banco de Dados",
+    "sinonimos": [
+      "subqueries",
+      "subconsulta"
+    ]
+  },
+  {
+    "nome": "Funções agregadas",
+    "categoria": "Banco de Dados",
+    "sinonimos": [
+      "sum",
+      "avg",
+      "count",
+      "max",
+      "min"
+    ]
+  },
+  {
+    "nome": "Triggers",
+    "categoria": "Banco de Dados",
+    "sinonimos": [
+      "gatilhos sql"
+    ]
+  },
+  {
+    "nome": "Procedures",
+    "categoria": "Banco de Dados",
+    "sinonimos": [
+      "procedures",
+      "procedimentos armazenados"
+    ]
+  },
+  {
+    "nome": "Modelagem de Banco de Dados",
+    "categoria": "Banco de Dados",
+    "sinonimos": [
+      "modelagem relacional",
+      "modelagem entidade relacionamento",
+      "diagrama er"
+    ]
+  },
+  {
+    "nome": "Índices",
+    "categoria": "Banco de Dados",
+    "sinonimos": [
+      "indexação",
+      "indexes",
+      "otimização de consulta"
+    ]
+  },
+  {
+    "nome": "NOC",
+    "categoria": "Categoria",
+    "sinonimos": [
+      "Centro de Operações de Rede",
+      "Centro de Operações de Redes",
+      "Network Operations Center"
+    ]
+  }
+]

@@ -21,7 +21,8 @@ Lista de prospecções com o código, nome, comentário e situação do candidat
  
 
 Applicants.json -> É chaveado pelo código do candidato e possui todas as informações referentes ao candidato: 
-Informações básicas, pessoais, profissionais, formação e o cv. Informações importantes desse json:
+Informações básicas, pessoais, profissionais, formação e o cv.
+Informações importantes desse json:
 
 Nível acadêmico, de inglês e espanhol
 Conhecimentos técnicos

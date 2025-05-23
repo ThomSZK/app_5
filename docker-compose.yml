@@ -1,0 +1,16 @@
+services:
+  api:
+    build:
+      context: .
+      args:
+        SERVICE: api
+    ports:
+      - "8000:8000"
+
+  streamlit:
+    build:
+      context: .
+      args:
+        SERVICE: streamlit
+    ports:
+      - "8503:8503"
