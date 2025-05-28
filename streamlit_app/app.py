@@ -61,7 +61,7 @@ if st.button("🔍 Enviar para previsão"):
 
 
         with st.spinner("Enviando para a API..."):
-            response = requests.post("http://api:8000/predict", json=payload)
+            response = requests.post("http://app:8000/predict", json=payload)
 
         if response.status_code == 200:
             st.success("✅ Previsão realizada com sucesso!")
