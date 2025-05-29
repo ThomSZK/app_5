@@ -6,6 +6,6 @@ scrape_configs:
     metrics_path: '/metrics'
     static_configs:
       - targets: ['app:8001']
-  - job_name: 'streamlit'
+  - job_name: 'prometheus'
     static_configs:
-      - targets: ['streamlit:8501']
+      - targets: ['localhost:9090']

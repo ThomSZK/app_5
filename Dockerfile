@@ -36,6 +36,9 @@ COPY --from=builder /usr/local/bin/streamlit /usr/local/bin/streamlit
 # Copy application code
 COPY . .
 
+RUN mkdir -p /app/prometheus_data && chmod 777 /app/prometheus_data
+ENV PROMETHEUS_MULTIPROC_DIR=/app/prometheus_data
+
 # Create non-root user
 RUN useradd -m appuser && \
     chown -R appuser:appuser /app

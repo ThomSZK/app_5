@@ -8,6 +8,7 @@ services:
       - PYTHONUNBUFFERED=1
       - SERVICE=api
       - PROMETHEUS_METRICS_ENABLED=1
+      - PROMETHEUS_MULTIPROC_DIR=/app/prometheus_data
     ports:
       - "8000:8000"
       - "8001:8001"  # Prometheus metrics
@@ -15,6 +16,7 @@ services:
       - ./app:/app/app
       - ./data:/app/data
       - ./prometheus:/app/prometheus
+       - prometheus_data:/app/prometheus_data
     depends_on:
       - elasticsearch
       - kibana
