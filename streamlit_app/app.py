@@ -4,6 +4,7 @@ import preprocess
 import os
 
 os.environ["STREAMLIT_WATCHER_TYPE"] = "none"
+os.environ["STREAMLIT_LEGACY_WATCHER"] = "true"
 
 st.set_page_config(page_title="Classificação com Stacking", layout="wide")
 
@@ -61,12 +62,12 @@ if st.button("🔍 Enviar para previsão"):
 
 
         with st.spinner("Enviando para a API..."):
-            response = requests.post("http://api:8000/predict", json=payload)
+            response = requests.post("http://app:8000/predict", json=payload)
 
         if response.status_code == 200:
             st.success("✅ Previsão realizada com sucesso!")
             # Pegando a classe predita
-            classe_predita = response.json()[0]['classe_predita']       
+            classe_predita = response.json()["predictions"][0]    
             # Mostrando a classe
             st.markdown(f"### 🎯 Correlação entre candidato e vaga: **{classe_labels.get(classe_predita, 'Desconhecida')}**")
 

@@ -1,0 +1,61 @@
+{
+  "id": null,
+  "title": "FastAPI - API Metrics",
+  "timezone": "browser",
+  "panels": [
+    {
+      "type": "graph",
+      "title": "Requisições HTTP por endpoint",
+      "targets": [
+        {
+          "expr": "sum by (method, endpoint) (rate(http_requests_total[1m]))",
+          "legendFormat": "{{method}} {{endpoint}}",
+          "refId": "A"
+        }
+      ],
+      "datasource": "Prometheus",
+      "id": 1
+    },
+    {
+      "type": "graph",
+      "title": "Latência das requisições (segundos)",
+      "targets": [
+        {
+          "expr": "rate(http_request_latency_seconds_sum[1m]) / rate(http_request_latency_seconds_count[1m])",
+          "legendFormat": "{{endpoint}}",
+          "refId": "B"
+        }
+      ],
+      "datasource": "Prometheus",
+      "id": 2
+    },
+    {
+      "type": "graph",
+      "title": "Score de Drift nos Dados",
+      "targets": [
+        {
+          "expr": "data_drift_score",
+          "legendFormat": "Drift Score",
+          "refId": "C"
+        }
+      ],
+      "datasource": "Prometheus",
+      "id": 3
+    },
+    {
+      "type": "stat",
+      "title": "Drift Detectado (1 = sim, 0 = não)",
+      "targets": [
+        {
+          "expr": "data_drift_detected",
+          "refId": "D"
+        }
+      ],
+      "datasource": "Prometheus",
+      "id": 4
+    }
+  ],
+  "schemaVersion": 36,
+  "version": 1,
+  "refresh": "10s"
+}

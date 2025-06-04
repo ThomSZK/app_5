@@ -1,16 +1,79 @@
 services:
-  api:
-    build:
+  app:
+    build: 
       context: .
       args:
-        SERVICE: api
+        - SERVICE=api
+    environment:
+      - PYTHONUNBUFFERED=1
+      - SERVICE=api
+      - PROMETHEUS_METRICS_ENABLED=1
+      - PROMETHEUS_MULTIPROC_DIR=/app/prometheus_data
     ports:
       - "8000:8000"
+      - "8001:8001"  # Prometheus metrics
+    volumes:
+      - ./app:/app/app
+      - ./data:/app/data
+      - ./prometheus:/app/prometheus
+       - prometheus_data:/app/prometheus_data
+    depends_on:
+      - elasticsearch
+      - kibana
+      - prometheus
 
   streamlit:
     build:
       context: .
       args:
-        SERVICE: streamlit
+        - SERVICE=streamlit
+    environment:
+      - PYTHONUNBUFFERED=1
+      - SERVICE=streamlit
     ports:
-      - "8503:8503"
+      - "8501:8501"
+    volumes:
+      - ./app:/app/app
+      - ./data:/app/data
+    depends_on:
+      - app
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.7.0
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+    ports:
+      - "9200:9200"
+    volumes:
+      - es_data:/usr/share/elasticsearch/data
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:8.7.0
+    ports:
+      - "5601:5601"
+    depends_on:
+      - elasticsearch
+
+  prometheus:
+    image: prom/prometheus
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./prometheus/config:/etc/prometheus
+    command:
+       - '--config.file=/etc/prometheus/prometheus.yml'
+
+  grafana:
+    image: grafana/grafana
+    ports:
+      - "3000:3000"
+    volumes:
+      - grafana_data:/var/lib/grafana
+    depends_on:
+      - prometheus
+
+volumes:
+  es_data:
+  prometheus_data:
+  grafana_data:
